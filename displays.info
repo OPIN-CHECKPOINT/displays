@@ -4,9 +4,20 @@ package = Checkpoint
 project = Checkpoint
 version = 7.x-1.0
 
-; Contributed Modules
-
 ; Components
 dependencies[] = common
 
-features[features_api][] = api:2
+; Contributed Modules
+dependencies[] = views
+dependencies[] = admin_views
+dependencies[] = better_exposed_filters
+dependencies[] = semanticviews
+dependencies[] = views_aggregator
+dependencies[] = views_autocomplete_filters
+dependencies[] = views_bulk_operations
+dependencies[] = views_data_export
+dependencies[] = views_datasource
+dependencies[] = views_fieldset
+dependencies[] = views_infinite_scroll
+dependencies[] = views_litepager
+dependencies[] = views_record_count
